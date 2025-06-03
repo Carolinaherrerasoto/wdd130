@@ -20,7 +20,7 @@ h1 {
     color: darkblue;
     border-bottom-width: 3px;
     border-bottom-style: dashed;
-    border-bottom-color: blue
+    border-bottom-color: rgb(0, 255, 21)
 }
 
 main img {
