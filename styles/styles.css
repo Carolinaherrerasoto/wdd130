@@ -33,6 +33,7 @@ h1 {
 
 main img {
     display: flex;
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
