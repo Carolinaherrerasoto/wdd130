@@ -48,7 +48,7 @@ p {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px rgb(0, 0, 0 / 0.2);
+    border: 1px solid (0, 0, 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -66,12 +66,9 @@ footer {
     text-align: center
 }
 
-header,
-grid,
-footer,
-{
-max-width: 840px;
-margin: 0 auto;
+header, .home-grid, footer, {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 .home-grid {
