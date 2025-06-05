@@ -48,7 +48,6 @@ nav {
     background-color: var(--secondary-color);
     padding: 10px;
     align-items: center;
-    float: left-center;
 }
 nav a {
     display: block;
@@ -57,6 +56,8 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff;
+    float: left-center;
+
 }
 p,
 section,
