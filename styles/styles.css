@@ -82,11 +82,11 @@ margin: 0 auto;
 
 main {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     position: relative;
 }
 
 aside {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
 }
