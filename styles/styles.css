@@ -60,7 +60,15 @@ footer {
 }
 
 header,
-footer {
-    max-width: 840px;
-    margin: 0 auto;
+grid,
+footer,
+{
+max-width: 840px;
+margin: 0 auto;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
 }
