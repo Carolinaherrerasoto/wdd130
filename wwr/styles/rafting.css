@@ -48,7 +48,7 @@ nav {
     background-color: var(--secondary-color);
     padding: 10px;
     align-items: center;
-    float: right-center
+    float: left-center;
 }
 nav a {
     display: block;
