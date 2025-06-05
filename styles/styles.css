@@ -26,7 +26,7 @@ h1 {
 }
 
 main img {
-    float: inline-end;
+    display: flex;
     width: 150px;
     height: auto;
     border: 1px solid black;
