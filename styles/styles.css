@@ -1,4 +1,4 @@
-.grid{
+.grid {
     display: grid;
     align-items: center;
 }
@@ -26,8 +26,7 @@ h1 {
     color: darkblue;
     border-bottom-width: 3px;
     border-bottom-style: dashed;
-    border-bottom-color: rgb(0, 255, 21)
-    text-align: center;
+    border-bottom-color: rgb(0, 255, 21) text-align: center;
     margin-bottom: 20px;
 }
 
@@ -66,24 +65,27 @@ footer {
     text-align: center
 }
 
-header, .home-grid, footer, {
-    max-width: 840px;
-    margin: 0 auto;
+header,
+.home-grid,
+footer,
+{
+max-width: 840px;
+margin: 0 auto;
 }
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 40px;
     grid-template-rows: auto auto auto;
 }
 
 main {
-    grid-column: 1 / 3;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 aside {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
 }
