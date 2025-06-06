@@ -12,7 +12,7 @@ header {
     color: var(--secondary-color);
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120 px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid var(--secondary-color);
     max-width: 1000px;
