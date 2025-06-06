@@ -7,60 +7,6 @@
     --body-font: "Libre Baskerville, regular";
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid var(--secondary-color);
-    max-width: 1000px;
-}
-
-.navigation {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.navigation li {
-    flex: 1 1 auto;
-}
-
-.navigation a {
-    display: block;
-    /*color: navy;*/
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.navigation a:hover {
-    /*color: tomato;*/
-    color: var(--accent2-color);
-    background-color: var(--secondary-color);
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-img src {
-    margin: 0 0.25rem 0 1rem;
-    width: 32px;
-    height: auto;
-}
-
-/*hola*/
-/* font-family: var(--heading-font);
-    padding: 20px;
-    text-align: center;
- */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -77,6 +23,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    padding: 0 1 rem;
 }
 
 h1,
@@ -84,27 +31,112 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    margin-bottom: 1rem;
 }
 
-
-section {
-
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 5px;
-    padding: 8px;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
-section img {
-    width: 100%;
+header. logo {
+    margin: 0 0.25rem 0 1 rem;
+    width: 70px;
     height: auto;
 }
 
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+.navigation li a {
+    display: block;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 15 px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+navigation a:hover {
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero {
+
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.hero h2 {
+    color: var(--accent1-color);
+    margin-bottom: 1.5rem;
+}
+
+.hero content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5 rem;
+    align-items: start;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero content p {
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+
+.hero content img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    justify-self: center;
+    border: 1px solid var(--secondary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    float: left-center;
+    position: absolute;
+
+}
 
 p,
+section,
 article {
     margin: 16px;
     padding: 8px;
@@ -153,44 +185,4 @@ article {
     float: right;
     width: 125px;
 
-}
-#adventures {
-  padding: 2rem 0; 
-  text-align: center; 
-}
-
-.adventure-gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;    
-  max-width: 1200px; 
-  margin: 0 auto; 
-  padding: 0 1rem; 
-}
-
-.adventure-gallery figure {
-  margin: 0; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: space-between;
-  background-color: var(--accent1-color)
-  border-radius: 8px; 
-  overflow: hidden; 
-}
-
-.adventure-gallery img {
-  width: 100%; 
-  height: 200px; 
-  object-fit: cover; 
-  display: block; 
-}
-
-.adventure-gallery figcaption {
-  padding: 0.75rem;
-  font-weight: bold;
-  font-size: 0.9rem;
-  color: #333;
-  background-color: #e2e2e2;
-  text-align: center;
-  flex-shrink: 0;
 }
