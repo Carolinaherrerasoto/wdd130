@@ -10,14 +10,25 @@
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin: 1rem auto;
+    display: grid grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid var(--secondary-color);
+    max-width: 1000px;
 }
 
+img src {
+    margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
 /*hola*/
 /* font-family: var(--heading-font);
     padding: 20px;
     text-align: center;
  */
 
+ 
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +60,7 @@ nav {
     padding: 10px;
     align-items: center;
 }
+
 nav a {
     display: block;
     padding: 0.5rem;
@@ -57,9 +69,10 @@ nav a {
     font-weight: 700;
     color: #fff;
     float: left-center;
-    position: relative;
+    position: absolute;
 
 }
+
 p,
 section,
 article {
